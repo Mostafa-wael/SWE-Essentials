@@ -134,93 +134,120 @@ For example:
 - **Java developers**: You may be familiar with **Spring boot**, etc.
 - **C# developers**: You may be familiar with **.NET Core**, **ASP.NET**, etc.
 
-## Back-end
+## Essentials to become a hero!
 
-## How web works?
+### How the Web Works: Your First Stop on the Journey
+Before we dive into building systems, it's essential to understand how the web works. Picture the web as a vast communication network between clients and servers, using the OSI model as a framework for interactions.
 
-You should have a good understanding of how the web works and the OSI model. This includes understanding the client-server model, `HTTP protocol`, `RESTful APIs`, etc. You should be familiar with web technologies like HTML, CSS, JavaScript, and how they work together to build web applications. You should also be familiar with web servers, `DNS`, `hosting`, and `deployment`.
+- **Client-Server Model**: At the heart of the web, you’ll find this model. Your browser (the client) sends requests to a web server, and the server responds with data (like a web page).
+- **HTTP Protocol**: The lifeblood of the web, HTTP governs how clients and servers communicate.
+- **APIs**: These define how systems should interact over the web, providing a clear set of guidelines for communication.
 
-You should be familiar with common web development tools like `Chrome DevTools`, `Postman`, `VS Code`, etc. You need to understand the status codes of HTTP, the difference between the different types of requests (`GET`, `POST`, `PUT`, `DELETE`, etc.), and how cookies and sessions work.
+To succeed as a back-end engineer, you must also know the tools that streamline this process, such as `Chrome DevTools`, `Postman`, `VS Code`. Understanding HTTP status codes and methods (GET, POST, PUT, DELETE) is crucial, along with knowing how cookies and sessions manage user data. These are your tools for creating interactive web experiences.
 
-## Networking
+### Networking: The Web’s Backbone
+The backbone of the internet is networking. As a back-end engineer, you need a solid grasp of networking concepts.
 
-You should have a good understanding of networking concepts like IP addresses, `TCP/IP`, `DNS`, `HTTP`, etc. This is essential for building scalable and secure applications. You should be able to troubleshoot network issues, optimize network performance, and secure your applications against network attacks.
+- **IP Addresses, DNS, and TCP/IP**: These allow your applications to communicate over the web. Understanding them is key to building scalable and secure apps.
+- **Network Troubleshooting & Security**: Learn tools like `ping`, `traceroute`, `iptables`. Dive into network security concepts like firewalls, VPNs, and encryption to secure your systems.
+In the end, good networking knowledge will not only help you resolve connectivity issues but also ensure your applications perform smoothly under different conditions.
 
-You should be familiar with common networking tools like `ping`, `traceroute`, `iptables`, etc. You should also be familiar with common network security concepts like firewalls, VPNs, encryption, etc.
+### Communication Protocols: Establishing Clear Rules for Interaction
+Communication protocols define how systems talk to each other. As a back-end engineer, you should be comfortable with common protocols like:
 
-## Communication Protocols
+- **REST**: Simple and stateless, used widely in web development.
+- **SOAP**: A more rigid, protocol-based communication system.
+- **gRPC**: Modern, efficient, and often used for microservices.
+- **GraphQL**: Offers more flexible data querying, popular in modern APIs.
+- 
+Tools like `Postman` and `Swagger` are essential for designing, testing, and documenting these APIs. Mastering these protocols ensures you can build/choose APIs that communicate effectively across systems.
 
-You should be familiar with common communication protocols like `REST`, `SOAP`, `gRPC`, `GraphQl`, etc. These protocols are used to define the rules that govern communication between different systems. You should be able to design and implement APIs that follow these protocols. You should also be familiar with tools like `Postman`, `Swagger`, etc. that help you test and document APIs.
+### Web Servers: The Gatekeepers of Your Applications
+Your back-end code runs on web servers. It’s essential to get acquainted with popular servers like `Apache`, `Nginx`, and `Tomcat`.
 
-## Web Servers
+- **Configuration**: Learn how to configure these servers to host your applications.
+- **Performance Optimization**: Techniques like load balancing and caching ensure that your applications can handle high traffic without crashing.
+- **Security**: Securing web servers is crucial to prevent attacks.
+Whether you're hosting a simple website or a complex application, understanding web servers is key to delivering a reliable and secure experience to users.
 
-You should be familiar with common web servers like `Apache`, `Nginx`, `Tomcat`, etc. You should be able to configure these servers, optimize their performance, and secure them against attacks. You should also be familiar with concepts like load balancing, caching, etc. that help you scale your applications.
+### Databases: Where Your Data Lives
+Databases store and manage the data your applications rely on. As a back-end engineer, you should be comfortable with both SQL databases (like MySQL, PostgreSQL) and NoSQL databases (like MongoDB).
 
-## Databases
+- **Schema Design & Optimization**: Designing efficient database schemas and optimizing performance through **indexing**, **normalization**, and **query optimization** are must-have skills. You can achieve this by diving deeper into the query engine and understand how things work behind the hood e.g. how query plans are generated, how redo/undo works and so on. 
+- **ORMs(Object Relational Mapping)**: Tools like `SQLAlchemy`, and `Hibernate` help you interact with databases using object-oriented paradigms i.e. programming languages.
+- **Stored Procedures**, **Triggers**, **Views**: Learn about these to implement complex database logic.
+- **Management Tools**: You should be familiar with common database management tools like `phpMyAdmin`, `pgAdmin`, or `adminer`.
+- **Distributed Database Concepts**: understand concepts like **CAP** theorem, **ACID**, **BASE**, database **sharding**, database **replication**, etc.
 
-You should be familiar with common databases like MySQL, PostgreSQL, MongoDB, etc. You should be able to design and implement database schemas, write efficient queries, and optimize database performance. You should also be familiar with concepts like normalization, indexing, transactions, etc.
+A solid database foundation ensures your applications handle data efficiently and scale well.
 
-You should be familiar with common database management tools like `phpMyAdmin`, `pgAdmin`, `adminer`, etc.
+### Linux: The Foundation of the Modern Web
+Most back-end systems run on Linux. To become an effective back-end engineer, you must be comfortable with Linux commands and administration. You should be able to work with the Linux command line, install packages, configure services, etc. You should also be familiar with common Linux distributions like `Ubuntu`, `CentOS`, etc.
 
-You may need to learn about stored procedures, triggers, views, etc. that help you implement complex database logic.
+- **Basic Commands**: Familiarize yourself with basic commands (`ls`, `cd`, `pwd`, `cp`, `mv`, `rm`, `mkdir`, `rmdir`, `chmod`, `chown`).
+- **Common handy tools**:  Familiarize yourself with (`grep`, `sed`, `awk`, `top`, `htop`, `netstat`, `ifconfig`) and how to use them. 
+- **System Administration**: Set up users, configure services, and manage permissions.
+- **Scripting**: Shell scripts allow you to automate tasks like backups, deployments, and system monitoring.
+- 
+A solid understanding of Linux ensures that you can manage servers and applications with confidence
 
-You may also need to dive deep in the query engine of the database you are using. For example, you may need to understand how the query engine of MySQL works, how query plans are generated, etc.
+### Parallel Programming: Unlocking Multi-Core Power
+Modern systems often require concurrent execution of tasks. Understanding parallel programming is essential for improving efficiency and performance.
 
-You may need to learn about ORM (Object Relational Mapping) tools like `SQLAlchemy`, `Hibernate`, etc. that help you interact with databases using an object-oriented approach.
+- **Threads**, **Processes**, **Locks**: Learn how to write concurrent programs using these concepts.
+- **Libraries**: Explore libraries like `OpenMP`, `MPI`, and `Pthreads` to help you in parallel processing.
+- 
+With parallel programming, you can build systems that take full advantage of modern multi-core processors.
 
-## Linux
+### Docker: Containerizing Your Applications
+In the world of modern software, Docker has become essential. Docker allows you to package your application and its dependencies into a container, ensuring it runs consistently across environments.
 
-You should be familiar with the Linux operating system. Linux is widely used in the software industry for hosting web servers, databases, etc. You should be able to work with the Linux command line, install packages, configure services, etc. You should also be familiar with common Linux distributions like `Ubuntu`, `CentOS`, etc.
+- **Containers**, **Networking**, and **Volumes**: Master these concepts to package your application.
+- **Docker Commands**: Learn essential commands like `docker build`, `docker run`, `docker ps`, `docker exec`, `docker stop`, `docker rm`, and `docker rmi`.
+- **Docker-Compose**: A more organized way to handle multiple docker containers/resources and their configurations.
+- 
+Understanding Docker is crucial for deploying scalable and reliable applications in any environment.
 
-Understanding Linux will help you troubleshoot server issues, optimize server performance, and secure your applications.
+### Continuous Integration/Continuous Deployment (CI/CD): Automating Your Workflow
+CI/CD tools like `Jenkins`, `Github Actions`, `CircleCI`, and `Bitbucket Pipeline` automate the process of building, testing, and deploying applications.
 
-You need to learn about common Linux commands like `ls`, `cd`, `pwd`, `cp`, `mv`, `rm`, `mkdir`, `rmdir`, `chmod`, `chown`, etc.
+- **Deployment**: Learn how to create pipelines that automate your deployment process.
+- **Testing Integration**: Integrate unit tests into your CI/CD pipelines to ensure code quality.
+- 
+Mastering CI/CD ensures your applications are deployed faster and with fewer errors.
 
-You should also be familiar with common Linux tools like `grep`, `sed`, `awk`, `top`, `htop`, `netstat`, `ifconfig`, etc.
+### Testing: The Key to Reliable Software
+Testing is essential for maintaining code quality and preventing bugs.
 
-You may need to learn about shell scripting that helps you automate common tasks on Linux. In addition, you may need to learn about system administration tasks like setting up users, groups, permissions, etc.
+- **Unit Testing**, **Integration Testing**: Write tests for individual components and how they interact. You may need to use tools like: `JUnit`, `Jest`, `Mocha`, and `PyTest`.
+- **E2E Testing Tools**: Familiarize yourself with E2E testing tools, it may save you a lot of time and effort like `Selenium`, and `Cypress`,.
+- **Mocking & Stubbing**: Learn these concepts to isolate the parts of your code you want to test.
+- 
+Good testing practices lead to more reliable software and fewer bugs in production.
 
-It would be great to learn about file systems, processes, memory management, monitoring, etc. in Linux.
+### Linting: Keeping Your Code Consistent
+Linting helps enforce coding standards across your project. Tools like `Pylint`, `ESLint`, and `Checkstyle` ensure that your code is clean, readable, and maintainable.
 
-## Parallel Programming
+- **Code Styling**: Establish consistent rules for your project’s code style, like naming conventions and code formatting.
+Linting is crucial when working in teams to keep the codebase clean and avoid inconsistencies.
 
-You should be familiar with parallel programming concepts. Parallel programming is essential for writing code that takes advantage of multi-core processors. You should be able to write code that runs multiple tasks concurrently and communicates between them. You should be familiar with common parallel programming models like threads, processes, locks, semaphores, etc.
+### Documentation: Explaining Your Work to the World
+Clear documentation is vital for helping others (and your future self) understand your code.
 
-You should be familiar with common parallel programming libraries like `OpenMP`, `MPI`, `Pthreads`, etc.
+-** Documentation Tools**: Tools like `Doxygen`, and `Pydocs` can help you generate code documentation. Tools like `Swagger` helps you generate API documentation. 
+- **READMEs**: A well-written README file provides essential details about how your project works.
+- **CHANGELOGs**: A well-written CHANGELOG file provides essential details about how your project evolves and makes it easier to keep track with the changes and why we needed them.
+- 
+Good documentation improves the usability of your code and enhances team collaboration.
 
-## Docker
-
-Docker is a containerization platform that helps you build, ship, and run applications in a consistent environment. You should be familiar with Docker concepts like containers, images, volumes, networks, etc. You should be able to create Dockerfiles, build Docker images, run Docker containers, and manage Docker resources.
-
-You should be familiar with common Docker commands like `docker build`, `docker run`, `docker ps`, `docker exec`, `docker stop`, `docker rm`, `docker rmi`, etc.
-
-## Continuous Integration/Continuous Deployment (CI/CD)
-
-CI/CD is a software development practice that helps you automate the process of building, testing, and deploying applications. You should be familiar with CI/CD tools like `Jenkins`, `Github Actions`, `CircleCI`, etc. You should be able to create pipelines that automate the process of building, testing, and deploying your applications.
-
-## Testing
-
-You should be familiar with common testing techniques like unit testing, integration testing, Test Driven Development, end-to-end testing, etc. You should be able to write test cases, run tests, and analyze test results. You should also be familiar with testing frameworks like `JUnit`, `Jest`, `Mocha`, `PyTest`, etc. that help you automate the testing process.
-
-You may also be familiar with common testing tools like `Selenium`, `Cypress`, etc. that help you test web applications.
-
-You should be familiar with common testing concepts like mocking, stubbing, spying, etc. that help you isolate the code you are testing.
-
-## Linting
-
-...
-
-## Documentation
-
-You should be able to write clear and concise documentation for your code. This includes writing comments, README files, API documentation, etc. You should be able to explain your code to other developers and users. You should also be familiar with documentation tools like `Swagger`, `Doxygen`, `Pydocs`, etc.
-
-## System Design
-
+### System Design: Crafting Large-Scale Solutions
 You should be able to design scalable and maintainable systems. This includes understanding the requirements of the system, designing the architecture, and choosing the right technologies. You should be able to design systems that are fault-tolerant, scalable, and secure. You should be familiar with common system design concepts like load balancing, caching, sharding, replication, etc.
 
-You need to learn about
+- **Architectural Patterns**: Learn patterns like layered architecture, microservices, monolithic, event-driven, microkernel, etc.
+- **Deployment Patterns**: Learn Techniques like big bang deployment, blue-green deployment, canary deployment, rolling deployment, feature toggles, etc. 
+- **Distributed Systems Patterns**: Understand patterns for building large-scale systems, such as leader election, circuit breaker, event sourcing, ambassador, sidecar, pub-sub, etc.
+- **Distributed Systems Components/Concepts**: Load balancers, proxies, caches, SSL termination, DNS propagation, etc.
 
-- Architectural Design Patterns: layered architecture, microservices, monolithic, event-driven, microkernel, etc.
-- Deployment Patterns: big bang deployment, blue-green deployment, canary deployment, rolling deployment, feature toggles, etc.
-- Distributed Systems Patterns: ambassador, side car, circuit breaker, leader election, pub-sub, event sourcing, etc.
-- Distributed Systems: CAP theorem, ACID, BASE, etc.
+System design is a crucial skill for building applications that scale effectively and handle millions of users.
+
+
