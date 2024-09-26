@@ -102,7 +102,7 @@ Let design patterns serve as your compass as you navigate the broad world of sof
 
 You aren't working alone on your projects anymore, your code must be  clean, readable, and maintainable so that others -including you future self- can continue developing and maintaining it. This is essential for working in a team environment where multiple developers are working on the same codebase. You should follow best practices like writing self-explanatory code, using meaningful variable names, writing comments, and following coding conventions.
 
-You should familairize yourself with
+You should familiarize yourself with
 
 - **SOLID principles**: These are five principles that help you write clean, maintainable, and scalable code.
   - **Single Responsibility Principle**: A class should have only one responsibility.
@@ -114,7 +114,7 @@ You should familairize yourself with
 - **KISS (Keep It Simple, Stupid) principle**: This principle states that you should keep your code simple and easy to understand.
 - **YAGNI (You Aren't Gonna Need It) principle**: This principle states that you should not add functionality to your codebase until you actually need it.
 
-### Version Control & Code Registries
+### Version Control(Git)
 
 Now that you've honed your coding skills, you can agree that making wrong turns and removing files unintentionally, is one of our worst nightmares. But, fear nor, version control is your faithful friend that have your back.
 
@@ -133,6 +133,32 @@ For example:
 - **JavaScript developers**: You may be familiar with **Node.js**, **Express**, etc.
 - **Java developers**: You may be familiar with **Spring boot**, etc.
 - **C# developers**: You may be familiar with **.NET Core**, **ASP.NET**, etc.
+
+## Three Important Pillars
+
+### Testing: The Key to Reliable Software
+Testing is essential for maintaining code quality and preventing bugs.
+
+- **Unit Testing**, **Integration Testing**: Write tests for individual components and how they interact. You may need to use tools like: `JUnit`, `Jest`, `Mocha`, and `PyTest`.
+- **E2E Testing Tools**: Familiarize yourself with E2E testing tools, it may save you a lot of time and effort like `Selenium`, and `Cypress`,.
+- **Mocking & Stubbing**: Learn these concepts to isolate the parts of your code you want to test.
+
+Good testing practices lead to more reliable software and fewer bugs in production.
+
+### Linting: Keeping Your Code Consistent
+Linting helps enforce coding standards across your project. Tools like `Pylint`, `ESLint`, and `Checkstyle` ensure that your code is clean, readable, and maintainable.
+
+- **Code Styling**: Establish consistent rules for your project’s code style, like naming conventions and code formatting.
+Linting is crucial when working in teams to keep the codebase clean and avoid inconsistencies.
+
+### Documentation: Explaining Your Work to the World
+Clear documentation is vital for helping others (and your future self) understand your code.
+
+- **Documentation Tools**: Tools like `Doxygen`, and `Pydocs` can help you generate code documentation. Tools like `Swagger` helps you generate API documentation. 
+- **READMEs**: A well-written README file provides essential details about how your project works.
+- **CHANGELOGs**: A well-written CHANGELOG file provides essential details about how your project evolves and makes it easier to keep track with the changes and why we needed them.
+
+Good documentation improves the usability of your code and enhances team collaboration.
 
 ## Essentials to become a hero!
 
@@ -170,8 +196,35 @@ Your back-end code runs on web servers. It’s essential to get acquainted with 
 - **Security**: Securing web servers is crucial to prevent attacks.
 Whether you're hosting a simple website or a complex application, understanding web servers is key to delivering a reliable and secure experience to users.
 
+### Linux: The Foundation of the Modern Web
+Most back-end systems run on Linux. To become an effective back-end engineer, you must be comfortable with Linux commands and administration. You should be able to work with the Linux command line, install packages, configure services, etc. You should also be familiar with common Linux distributions like `Ubuntu`, `CentOS`, etc.
+
+- **Basic Commands**: Familiarize yourself with basic commands (`ls`, `cd`, `pwd`, `cp`, `mv`, `rm`, `mkdir`, `rmdir`, `chmod`, `chown`).
+- **Common handy tools**:  Familiarize yourself with (`grep`, `sed`, `awk`, `top`, `htop`, `netstat`, `ifconfig`) and how to use them. 
+- **System Administration**: Set up users, configure services, and manage permissions.
+- **Scripting**: Shell scripts allow you to automate tasks like backups, deployments, and system monitoring.
+ 
+A solid understanding of Linux ensures that you can manage servers and applications with confidence
+
+### Parallel Programming: Unlocking Multi-Core Power
+Modern systems often require concurrent execution of tasks. Understanding parallel programming is essential for improving efficiency and performance.
+
+- **Threads**, **Processes**, **Locks**: Learn how to write concurrent programs using these concepts.
+- **Libraries**: Explore libraries like `OpenMP`, `MPI`, and `Pthreads` to help you in parallel processing.
+
+With parallel programming, you can build systems that take full advantage of modern multi-core processors.
+
+### Docker: Containerizing Your Applications
+In the world of modern software, Docker has become essential. Docker allows you to package your application and its dependencies into a container, ensuring it runs consistently across environments.
+
+- **Containers**, **Networking**, and **Volumes**: Master these concepts to package your application.
+- **Docker Commands**: Learn essential commands like `docker build`, `docker run`, `docker ps`, `docker exec`, `docker stop`, `docker rm`, and `docker rmi`.
+- **Docker-Compose**: A more organized way to handle multiple docker containers/resources and their configurations.
+
+Understanding Docker is crucial for deploying scalable and reliable applications in any environment.
+
 ### Databases: Where Your Data Lives
-Databases store and manage the data your applications rely on. As a back-end engineer, you should be comfortable with both SQL databases (like MySQL, PostgreSQL) and NoSQL databases (like MongoDB).
+Databases store and manage the data your applications rely on. As a back-end engineer, you should be comfortable with both SQL databases (like MySQL, and PostgreSQL) and NoSQL databases (like MongoDB).
 
 - **Schema Design & Optimization**: Designing efficient database schemas and optimizing performance through **indexing**, **normalization**, and **query optimization** are must-have skills. You can achieve this by diving deeper into the query engine and understand how things work behind the hood e.g. how query plans are generated, how redo/undo works and so on. 
 - **ORMs(Object Relational Mapping)**: Tools like `SQLAlchemy`, and `Hibernate` help you interact with databases using object-oriented paradigms i.e. programming languages.
@@ -181,33 +234,6 @@ Databases store and manage the data your applications rely on. As a back-end eng
 
 A solid database foundation ensures your applications handle data efficiently and scale well.
 
-### Linux: The Foundation of the Modern Web
-Most back-end systems run on Linux. To become an effective back-end engineer, you must be comfortable with Linux commands and administration. You should be able to work with the Linux command line, install packages, configure services, etc. You should also be familiar with common Linux distributions like `Ubuntu`, `CentOS`, etc.
-
-- **Basic Commands**: Familiarize yourself with basic commands (`ls`, `cd`, `pwd`, `cp`, `mv`, `rm`, `mkdir`, `rmdir`, `chmod`, `chown`).
-- **Common handy tools**:  Familiarize yourself with (`grep`, `sed`, `awk`, `top`, `htop`, `netstat`, `ifconfig`) and how to use them. 
-- **System Administration**: Set up users, configure services, and manage permissions.
-- **Scripting**: Shell scripts allow you to automate tasks like backups, deployments, and system monitoring.
-- 
-A solid understanding of Linux ensures that you can manage servers and applications with confidence
-
-### Parallel Programming: Unlocking Multi-Core Power
-Modern systems often require concurrent execution of tasks. Understanding parallel programming is essential for improving efficiency and performance.
-
-- **Threads**, **Processes**, **Locks**: Learn how to write concurrent programs using these concepts.
-- **Libraries**: Explore libraries like `OpenMP`, `MPI`, and `Pthreads` to help you in parallel processing.
-- 
-With parallel programming, you can build systems that take full advantage of modern multi-core processors.
-
-### Docker: Containerizing Your Applications
-In the world of modern software, Docker has become essential. Docker allows you to package your application and its dependencies into a container, ensuring it runs consistently across environments.
-
-- **Containers**, **Networking**, and **Volumes**: Master these concepts to package your application.
-- **Docker Commands**: Learn essential commands like `docker build`, `docker run`, `docker ps`, `docker exec`, `docker stop`, `docker rm`, and `docker rmi`.
-- **Docker-Compose**: A more organized way to handle multiple docker containers/resources and their configurations.
-- 
-Understanding Docker is crucial for deploying scalable and reliable applications in any environment.
-
 ### Continuous Integration/Continuous Deployment (CI/CD): Automating Your Workflow
 CI/CD tools like `Jenkins`, `Github Actions`, `CircleCI`, and `Bitbucket Pipeline` automate the process of building, testing, and deploying applications.
 
@@ -216,29 +242,44 @@ CI/CD tools like `Jenkins`, `Github Actions`, `CircleCI`, and `Bitbucket Pipelin
 - 
 Mastering CI/CD ensures your applications are deployed faster and with fewer errors.
 
-### Testing: The Key to Reliable Software
-Testing is essential for maintaining code quality and preventing bugs.
+## Monster Level
 
-- **Unit Testing**, **Integration Testing**: Write tests for individual components and how they interact. You may need to use tools like: `JUnit`, `Jest`, `Mocha`, and `PyTest`.
-- **E2E Testing Tools**: Familiarize yourself with E2E testing tools, it may save you a lot of time and effort like `Selenium`, and `Cypress`,.
-- **Mocking & Stubbing**: Learn these concepts to isolate the parts of your code you want to test.
-- 
-Good testing practices lead to more reliable software and fewer bugs in production.
+### Security: Protecting Your Applications and Data
+Security is a fundamental aspect of any software development process. As a back-end engineer, you need to ensure that your applications are secure and resistant to various types of attacks. 
 
-### Linting: Keeping Your Code Consistent
-Linting helps enforce coding standards across your project. Tools like `Pylint`, `ESLint`, and `Checkstyle` ensure that your code is clean, readable, and maintainable.
-
-- **Code Styling**: Establish consistent rules for your project’s code style, like naming conventions and code formatting.
-Linting is crucial when working in teams to keep the codebase clean and avoid inconsistencies.
-
-### Documentation: Explaining Your Work to the World
-Clear documentation is vital for helping others (and your future self) understand your code.
-
--** Documentation Tools**: Tools like `Doxygen`, and `Pydocs` can help you generate code documentation. Tools like `Swagger` helps you generate API documentation. 
-- **READMEs**: A well-written README file provides essential details about how your project works.
-- **CHANGELOGs**: A well-written CHANGELOG file provides essential details about how your project evolves and makes it easier to keep track with the changes and why we needed them.
-- 
-Good documentation improves the usability of your code and enhances team collaboration.
+- **Storing Passwords**: Storing passwords securely is critical to protecting user data. Learn about:
+  - Hashing: Instead of storing passwords in plaintext, you should hash them using algorithms like bcrypt, Argon2, or PBKDF2. These algorithms are designed to be slow, making brute-force attacks harder.
+  - Salting: Add a unique salt to each password before hashing. This prevents attackers from using precomputed hash tables (rainbow tables) to crack passwords.
+- **Authentication**: This is the process of verifying the identity of a user. Learn about:
+  - Username & Password: The most common form of authentication.
+  - Multi-Factor Authentication (MFA): Adds a second layer of authentication, typically using a code sent to the user’s phone or an authentication app.
+  - OAuth2: A popular protocol for third-party authentication (e.g., logging in with Google, Facebook).
+- **Authorization**: This process determines what an authenticated user is allowed to do. Learn about:
+  - Role-Based Access Control (RBAC): Users are assigned roles that define their permissions.
+  - Access Control Lists (ACL): A more fine-grained approach where specific permissions are assigned to individual resources.
+- **Cookies**, **Tokens**, and **Sessions**: Managing User State:
+  - Cookies: Small pieces of data stored in the user's browser, often used for session management, authentication, and personalization. Cookies should be HttpOnly and Secure to prevent attacks like `XSS` (Cross-Site Scripting).
+  - Sessions: Server-side storage that tracks user data during their interaction with an application. Sessions are often linked to a cookie.
+  - Tokens: Commonly used in stateless authentication (e.g., `JWT`). Tokens are signed data that can be verified by the server to authenticate users.
+- **Security in the Development Lifecycle**: Integrate Security Early
+  - Security Testing: Incorporate security testing into your development lifecycle through tools like `OWASP ZAP`, `Burp Suite`, or `Snyk`.
+  - Static Application Security Testing (SAST): Use automated tools to scan your codebase for security issues.
+- **Common Security Threats**: Recognize and Defend
+  - **SQL Injection**: Attackers insert malicious SQL code into your queries, allowing them to view or manipulate your database. Prevention strategies:
+    - Use prepared statements and parameterized queries.
+    - Always validate and sanitize user inputs.
+  - **Cross-Site Scripting (XSS)**: Attackers inject malicious scripts into web pages viewed by other users. To prevent XSS:
+    - Escape all user input before rendering it in HTML.
+    - Use libraries like DOMPurify to sanitize HTML inputs.
+  - **Cross-Site Request Forgery (CSRF)**: Attackers trick users into performing actions they didn't intend to. To prevent CSRF:
+    - Use CSRF tokens in forms and requests.
+    - Validate the Origin or Referer headers.
+  - **Man-in-the-Middle (MitM) Attacks**: Attackers intercept and possibly alter the communication between two parties. To prevent this:
+    - Always use HTTPS to encrypt traffic.
+    - Implement SSL/TLS for secure communication.
+  - **Brute Force Attacks**: Attackers try multiple combinations of passwords until they find the correct one. Mitigations include:
+    - Implement rate limiting to slow down repeated login attempts.
+    - Use CAPTCHAs to detect and block automated login attempts.
 
 ### System Design: Crafting Large-Scale Solutions
 You should be able to design scalable and maintainable systems. This includes understanding the requirements of the system, designing the architecture, and choosing the right technologies. You should be able to design systems that are fault-tolerant, scalable, and secure. You should be familiar with common system design concepts like load balancing, caching, sharding, replication, etc.
@@ -247,7 +288,5 @@ You should be able to design scalable and maintainable systems. This includes un
 - **Deployment Patterns**: Learn Techniques like big bang deployment, blue-green deployment, canary deployment, rolling deployment, feature toggles, etc. 
 - **Distributed Systems Patterns**: Understand patterns for building large-scale systems, such as leader election, circuit breaker, event sourcing, ambassador, sidecar, pub-sub, etc.
 - **Distributed Systems Components/Concepts**: Load balancers, proxies, caches, SSL termination, DNS propagation, etc.
-
-System design is a crucial skill for building applications that scale effectively and handle millions of users.
 
 
