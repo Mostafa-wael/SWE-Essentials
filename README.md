@@ -184,8 +184,7 @@ Communication protocols define how systems talk to each other. As a back-end eng
 - **REST**: Simple and stateless, used widely in web development.
 - **SOAP**: A more rigid, protocol-based communication system.
 - **gRPC**: Modern, efficient, and often used for microservices.
-- **GraphQL**: Offers more flexible data querying, popular in modern APIs.
-- 
+- **GraphQL**: Offers more flexible data querying, which is popular in modern APIs.
 Tools like `Postman` and `Swagger` are essential for designing, testing, and documenting these APIs. Mastering these protocols ensures you can build/choose APIs that communicate effectively across systems.
 
 ### Web Servers: The Gatekeepers of Your Applications
@@ -253,7 +252,7 @@ Security is a fundamental aspect of any software development process. As a back-
 - **Authentication**: This is the process of verifying the identity of a user. Learn about:
   - Username & Password: The most common form of authentication.
   - Multi-Factor Authentication (MFA): Adds a second layer of authentication, typically using a code sent to the user’s phone or an authentication app.
-  - OAuth2: A popular protocol for third-party authentication (e.g., logging in with Google, Facebook).
+  - OAuth2: A popular protocol for third-party authentication (e.g., logging in with Google, or Facebook).
 - **Authorization**: This process determines what an authenticated user is allowed to do. Learn about:
   - Role-Based Access Control (RBAC): Users are assigned roles that define their permissions.
   - Access Control Lists (ACL): A more fine-grained approach where specific permissions are assigned to individual resources.
